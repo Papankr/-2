@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>ЛР2</title>
+    <!-- <style></style> -->
+    <style>
+        .footer-text {
+            color: white;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+
+        .my-primary {
+            background-color: purple;
+        }
+
+        header {
+            background-color: gray;
+        }
+
+        footer {
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        main {
+            margin-top: 15px;
+        }
+
+        span {
+            font-family: 'Courier New', Courier, monospace;
+            color: red;
+            font-weight: 700;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        [type=password], [type=text] {
+            margin-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <header></header> -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark myprimary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <main></main> -->
+    <main class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="http://apluspetsitting.com/wp-content/uploads/2016/03/cats-150x150.jpg" alt="avatar"
+                    width="150" height="150">
+            </div>
+            <div class="col-8">
+                <p>Aenean tempus, massa nec varius hendrerit, arcu arcu tempus magna, in laoreet ante dui in nulla.
+                    In fringilla varius orci. Aenean lobortis, odio finibus tempor venenatis, eros nunc faucibus
+                    nulla, a imperdiet augue nibh ac libero. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <form action="/form_submit" method="get">
+                    <div class="row-2">Почта: <input type="text" class="row"></div>
+                    <div class="row-2">Пароль: <input type="password" class="row"></div>
+                    <div class="row-2">Повторите пароль: <input type="password" class="row"></div>
+                    <div class="row-2"><input type="radio" name="gender" value="New"> Зарегистрироваться</div>
+                    <div class="row-2"><input type="radio" name="gender" value="Old"> Войти <br></div>
+                    <div class="row-2"><input type="submit" value="Отправить"></div>
+                </form>
+            </div>
+            <div class="col-4">
+                <table class="table">
+                    <tr>
+                        <th>Время</th>
+                        <th>Пара</th>
+                    </tr>
+                    <tr>
+                        <td>10:15 - 11:50</td>
+                        <td>Линейная алгебра и функции нескольких переменных <br> 259л</td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:35</td>
+                        <td>Линейная алгебра и функции нескольких переменных <br>218л Грибов А. Ф.</td>
+                    </tr>
+                    <tr>
+                        <td>13:50 - 15:25</td>
+                        <td>Иностранный язык <br>Каф</td>
+                    </tr>
+                    <tr>
+                        <td>15:40 - 17:15</td>
+                        <td>Объектно-ориентированное программирование <br>619л</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ol>
+                    <li>С другой <span>стороны</span> новая модель организационной деятельности требуют</li>
+                    <li>от нас анализа существенных финансовых и <span>административных</span> условий.</li>
+                    <li><span>Товарищи!</span> сложившаяся структура организации влечет за</li>
+                    <li>собой процесс внедрения и модернизации <span>новых</span> предложений.</li>
+                    <li>Таким образом начало повседневной работы <span>по</span> формированию позиции</li>
+                    <li>требуют <span>определения</span> и уточнения соответствующий условий активизации.</li>
+                    <li>Разнообразный и богатый опыт дальнейшее развитие <span>различных</span> форм деятельности</li>
+                    <li>в значительной степени обуславливает создание систем <span>массового</span> участия.</li>
+                    <li>Задача <span>организации</span>, в особенности же сложившаяся структура организации обеспечивает</li>
+                    <li>широкому кругу (специалистов) участие в формировании <span>дальнейших</span> направлений развития.</li>
+                </ol>
+            </div>
+        </div>
+    </main>
+    <!-- <footer></footer> -->
+    <footer class="my-primary">
+        <div class="container">
+            <p class="footer-text">Footer</p>
+        </div>
+    </footer>
+</body>
+</html>
